@@ -1,4 +1,4 @@
-/* Подключаем сброс и настройки */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,13 +6,13 @@
 }
 
 body {
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif; /* Красивый шрифт + fallback */
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     line-height: 1.7;
     max-width: 800px;
     margin: 0 auto;
     padding: 30px 20px;
-    background: linear-gradient(to bottom right, #e3f2fd, #bbdefb); /* Нежный голубой градиент */
-    color: #0d47a1; /* Тёмно-голубой текст */
+    background: linear-gradient(to bottom right, #e3f2fd, #bbdefb);
+    color: #0d47a1;
     min-height: 100vh;
 }
 
@@ -24,9 +24,9 @@ body {
 }
 
 h1, h2 {
-    color: #0277bd; /* Яркий, но не кричащий голубой */
+    color: #0277bd; 
     margin: 24px 0 16px;
-    font-family: 'Nunito', 'Montserrat', sans-serif; /* Заголовки — округлые и дружелюбные */
+    font-family: 'Nunito', 'Montserrat', sans-serif; 
 }
 
 h1 {
@@ -44,13 +44,13 @@ li {
     margin-bottom: 8px;
 }
 
-/* Стили для контактов — с мягким голубым фоном */
+
 .p, .g {
     display: inline-block;
-    background-color: #4fc3f7; /* Свежий голубой */
+    background-color: #4fc3f7;
     color: white;
     padding: 8px 16px;
-    border-radius: 30px; /* Круглые края — модно и мило */
+    border-radius: 30px;
     font-weight: bold;
     transition: all 0.3s ease;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
@@ -58,12 +58,12 @@ li {
 
 .p:hover, .g:hover {
     transform: scale(1.08);
-    background-color: #0288d1; /* Темнее при наведении */
+    background-color: #0288d1; 
     color: #ffffff;
     box-shadow: 0 4px 10px rgba(0, 100, 200, 0.3);
 }
 
-/* Анимация появления */
+
 .animate {
     opacity: 0;
     transform: translateY(15px);
@@ -77,7 +77,7 @@ li {
     }
 }
 
-/* Поочерёдное появление */
+
 .animate:nth-child(1) { animation-delay: 0.1s; }
 .animate:nth-child(2) { animation-delay: 0.2s; }
 .animate:nth-child(3) { animation-delay: 0.3s; }
@@ -87,7 +87,7 @@ li {
 .animate:nth-child(7) { animation-delay: 0.7s; }
 .animate:nth-child(8) { animation-delay: 0.8s; }
 
-/* Адаптивность для телефонов */
+
 @media (max-width: 600px) {
     body {
         padding: 15px;
@@ -103,3 +103,4 @@ li {
         font-size: 0.95rem;
     }
 }
+
