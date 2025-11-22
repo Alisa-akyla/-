@@ -91,6 +91,16 @@
             border-left: 2px solid #0288d1;
         }
 
+        /* Стиль для обычных ссылок внутри текста */
+        a {
+            color: #4fc3f7;
+            text-decoration: underline;
+        }
+
+        a:hover {
+            color: #00e5ff;
+        }
+
         /* ===== КОНТАКТЫ ===== */
         .p, .g {
             display: inline-block;
@@ -194,16 +204,16 @@
         
         <h2 class="animate from-bottom">Чем я увлекаюсь</h2>
         <ul class="animate from-right">
-            <li>Рисую </li>
+            <li>Рисую</li>
             <li>Слушаю музыку</li>
             <li>Учусь программировать в KIBERONE</li>
             <li>Люблю собирать разные фигурки</li>
         </ul>
 
         <h2 class="animate from-bottom">Проекты</h2>
-        <p class="animate from-left">Пока в разработке!
-        <p class="animate from-left">Блог  (file:///D:/thdhgfd/index.html)
-        <p class="animate from-left">Чат  (file:///D:/index.html)
+        <p class="animate from-left">Пока в разработке!</p>
+        <p class="animate from-left">Блог: <a href="https://alisa-akyla.github.io/blog/" target="_blank" rel="noopener noreferrer">alisa-akyla.github.io/blog</a></p>
+        <p class="animate from-left">Чат: <em>(локальный файл — недоступен онлайн)</em></p>
 
         <h2 class="animate from-bottom">Планы на ближайший год</h2>
         <ul class="animate from-right">
@@ -219,7 +229,7 @@
         <h2 class="animate from-bottom">Контакты</h2>
         <ul class="animate">
             <li><a href="mailto:a9632980331@gmail.com" class="g">@a9632980331@gmail.com</a></li>
-            <li><span class="p">+7 963 290-10-23</span></li>
+            <li><a href="tel:+79632901023" class="p">+7 963 290-10-23</a></li>
         </ul>
     </div>
 </body>
